@@ -29,3 +29,8 @@ footer {
     background-color: #B52102 ; 
     position: relative;
 }
+
+#pie a, p {
+text-decoration: none;
+color: black;
+}
