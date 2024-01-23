@@ -1,45 +1,14 @@
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: 'Press Start 2P', cursive;
-    background-color: grey;
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
     color: #333;
     line-height: 1.6;
 }
 
-.logo {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em; 
-    margin-right: 700px; 
-}
-
-
-#barra{
-    background-color: #B52102;
-}
-
-
-main {
-    padding: 20px;
-}
-
-h1 {
-    color: #2c3e50;
-}
-
-p {
-    margin-bottom: 20px;
-}
-
-
 footer {
- 
-
-    background-color: #B52102 ;
+    background-color: #B52102;
     color: white;
+    text-decoration: none;
     padding: 20px;
     position: fixed; 
     width: 100%;
@@ -47,21 +16,16 @@ footer {
     text-align: center;
 }
 
-footer ul {
-    list-style: none;
+#barra{
+    background-color: #B52102;
 }
 
-footer ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-
-footer a {
-    color: #ecf0f1;
-    text-decoration: none;
-}
 
 .content {
     padding: 100px; 
+}
+
+#pie{
+    background-color: #B52102 ; 
+    position: relative;
 }
